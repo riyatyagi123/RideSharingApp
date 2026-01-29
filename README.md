@@ -3,7 +3,6 @@
 A simple **console-based ride sharing application** developed using **Java and JDBC**.  
 The project supports **users and drivers in the same system**, **ride creation with license validation**, and **ride booking functionality**.
 
----
 
 ## ✨ Features
 
@@ -18,16 +17,12 @@ The project supports **users and drivers in the same system**, **ride creation w
 - License expiry date is validated before allowing ride creation  
 - Drivers can create rides  
 
----
-
 ## 🛠️ Technologies Used
 
 - Java (JDK 21)  
 - JDBC  
 - MySQL  
 - Eclipse IDE  
-
----
 
 ## 👨‍💻 Author
 
