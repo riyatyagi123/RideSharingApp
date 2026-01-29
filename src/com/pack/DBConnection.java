@@ -1,4 +1,4 @@
-package com.ridesharing.db;
+package com.pack;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,9 +6,11 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/ride_sharing?useSSL=false&serverTimezone=UTC";
+        "jdbc:mysql://localhost:3306/ride_sharing" +
+        "?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+
     private static final String USER = "root";
-    private static final String PASSWORD = "root"; // change if needed
+    private static final String PASSWORD = "huacheng987@R";
 
     public static Connection getConnection() {
         try {
